@@ -1,17 +1,17 @@
 class Rectangle {
-    double length, width;
+    double leng, wid;
     void input(double a,double b) {
-        length=a; width=b;}
+        leng=a; wid=b;}
     double calculateArea(){
-              double area=length*width;
+              double area=leng*wid;
                return area;}
     void display(){
-        System.out.println(length);System.out.println(width);}}
+        System.out.println(leng);System.out.println(wid);}}
 class Main {
     public static void main(String[] args) {
-        Rectangle r = new Rectangle();
-        r.input(300,400);
-        r.display();
-        double t=r.calculateArea();
+        Rectangle rec = new Rectangle();
+        rec.input(300,400);
+        rec.display();
+        double t=rec.calculateArea();
         System.out.println(t);
    }}
